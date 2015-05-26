@@ -2,7 +2,7 @@ name: Adriano Tanaka
 markdown: redcarpet
 pygments: true
 github: https://www.github.com/exaem
-Sobre: Administrador de banco de dados.
+about: Administrador de banco de dados.
 urls:
     - text: Github
       url: https://github.com/exaem
