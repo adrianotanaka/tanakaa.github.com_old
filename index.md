@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-tagline: Supporting tagline
+
 ---
 <div class="posts">
   {% for post in paginator.posts %}
