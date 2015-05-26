@@ -4,9 +4,9 @@ pygments: true
 github: https://www.github.com/exaem
 about: I am an independent developer from the sunny UK. I dabble in Ruby, play in C and I'm an avid systems administrator.
 urls:
-    - text: github
+    - text: Github
       url: https://github.com/exaem
+    - text: Contato
+      url: mailto:adriano.tanakaa@gmail.com
     - text: email
       url: mailto:adriano.tanakaa@gmail.com
-	- text: oracle
-	 
