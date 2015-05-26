@@ -1,4 +1,4 @@
-name: Simply Grey
+name: Adriano Tanaka
 markdown: redcarpet
 pygments: true
 github: https://www.github.com/exaem
@@ -7,6 +7,4 @@ urls:
     - text: Github
       url: https://github.com/exaem
     - text: Contato
-      url: mailto:adriano.tanakaa@gmail.com
-    - text: email
       url: mailto:adriano.tanakaa@gmail.com
