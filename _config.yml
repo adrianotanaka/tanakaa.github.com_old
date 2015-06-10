@@ -7,7 +7,7 @@ url: "http://tanakaa.github.io/"
 #baseurl: "/tanakaa.github.com" # comment out if in root directory
 
 comments:
-    disqus: "niklasbuschmann"
+    disqus: "adrianotanakaa"
 #    isso: "comments.mysite.org"
 
 style:
