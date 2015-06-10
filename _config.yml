@@ -3,7 +3,7 @@ author: "Adriano Tanaka"
 description: "Really cool blog about ... something"
 #subheading: "Really cool blog about ... something"
 more: "read more"
-url: "http://niklabs.me"
+url: "https://github.com/tanakaa/tanakaa.github.com"
 baseurl: "https://github.com/tanakaa/tanakaa.github.com" # comment out if in root directory
 
 comments:
