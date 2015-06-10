@@ -33,6 +33,7 @@ echo "Email enviado para $2  -  `date` "
 {% endhighlight %}
 
 Como usar:
+
 {% highlight c %}
 
 ./envia_email_mail.sh "Sua mensagem" email@destinatario.com
