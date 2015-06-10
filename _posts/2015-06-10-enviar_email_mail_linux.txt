@@ -6,6 +6,7 @@ categories: example
 Simples script para enviar e-mails usando o utilitario mail, que é padrão em diversas distribuições linux.
 
 {% highlight bash %}
+
 #!/bin/bash
 ######################################################
 #ENVIAR E-MAIL USANDO O UTILITARIO MAIL              #
@@ -28,4 +29,5 @@ echo "####"
 echo "Destinatario: "
 echo $EMAIL
 echo "Email enviado para $2  -  `date` "
+
 {% endhighlight %}
