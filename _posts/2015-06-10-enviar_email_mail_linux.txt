@@ -31,11 +31,3 @@ echo $EMAIL
 echo "Email enviado para $2  -  `date` "
 
 {% endhighlight %}
-
-Como usar:
-
-{% highlight bash %}
-
-./envia_email_mail.sh "Sua mensagem" email@destinatario.com
-
-{% endhighlight %}
