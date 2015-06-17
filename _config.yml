@@ -31,10 +31,12 @@ links:
  # - steam: "http://steamcommunity.com/id/me/"
  
  
+ 
 analytics :
   provider : google 
   google : 
-  tracking_id : 'UA-64236204-1'
-
+      tracking_id : 'UA-64236204-1'
+	  
+	  
 excerpt_separator: "<!--more-->" 
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
