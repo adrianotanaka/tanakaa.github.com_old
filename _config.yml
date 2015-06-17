@@ -33,9 +33,12 @@ links:
  
  
 analytics :
-  provider : google 
+  provider : google
   google : 
       tracking_id : 'UA-64236204-1'
+  getclicky :
+    site_id :
+
 	  
 excerpt_separator: "<!--more-->" 
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
