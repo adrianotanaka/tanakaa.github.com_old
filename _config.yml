@@ -29,6 +29,12 @@ links:
  # - reddit: "https://www.reddit.com/user/me/"
   - youtube: "https://www.youtube.com/user/adrianotanakaa"
  # - steam: "http://steamcommunity.com/id/me/"
+ 
+ 
+analytics :
+  provider : google 
+  google : 
+  tracking_id : 'UA-64236204-1'
 
 excerpt_separator: "<!--more-->" 
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
