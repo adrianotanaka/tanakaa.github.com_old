@@ -11,4 +11,5 @@ Ele cobre desde como navegar por diretórios, criar e excluir usuários entre ou
 
 Algumas imagens do aplicativo:
 
-<img src="/assets/comandos_linux/img1.png" /><img src="/assets/comandos_linux/img2.png" /><img src="/assets/comandos_linux/img3.png" />
+<td><tr>
+<img src="/assets/comandos_linux/img1.png" /><img src="/assets/comandos_linux/img2.png" /><img src="/assets/comandos_linux/img3.png" /></tr></td>
