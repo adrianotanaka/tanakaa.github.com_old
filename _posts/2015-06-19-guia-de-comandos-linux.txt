@@ -10,6 +10,6 @@ disponíveis para Debian/Ubuntu e Fedora .
 Ele cobre desde como navegar por diretórios, criar e excluir usuários entre outros comandos úteis.
 
 Algumas imagens do aplicativo:
-
+<table style="width:100%">
 <tr><td>
-<img src="/assets/comandos_linux/img1.png" /></td><td><img src="/assets/comandos_linux/img2.png" /></td><td><img src="/assets/comandos_linux/img3.png" /></td></tr>
+<img src="/assets/comandos_linux/img1.png" /></td><td><img src="/assets/comandos_linux/img2.png" /></td><td><img src="/assets/comandos_linux/img3.png" /></td></tr></table>
