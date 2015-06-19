@@ -12,4 +12,6 @@ Ele cobre desde como navegar por diretórios, criar e excluir usuários entre ou
 Algumas imagens do aplicativo:
 <table style="width:100%">
 <tr><td>
-<img src="/assets/comandos_linux/img1.png" /></td><td><img src="/assets/comandos_linux/img2.png" /></td><td><img src="/assets/comandos_linux/img3.png" /></td></tr></table>
+<a href="/assets/comandos_linux/img1.png"><img src="/assets/comandos_linux/img1.png" /></a></td><td><img src="/assets/comandos_linux/img2.png" /></td><td><img src="/assets/comandos_linux/img3.png" /></td></tr></table>
+
+Você pode baixar o aplicativo nesse link: https://play.google.com/store/apps/details?id=br.tiringo.comandosLinux 
