@@ -16,4 +16,4 @@ Algumas imagens do aplicativo:
 <td><a href="/assets/comandos_linux/img2.png"><img src="/assets/comandos_linux/img2.png" /></a></td>
 <td><a href="/assets/comandos_linux/img3.png"><img src="/assets/comandos_linux/img3.png" /></a></td></tr></table>
 
-Você pode baixar o aplicativo nesse link: https://play.google.com/store/apps/details?id=br.tiringo.comandosLinux 
+Você pode baixar o aplicativo nesse link: <a href="https://play.google.com/store/apps/details?id=br.tiringo.comandosLinux ">https://play.google.com/store/apps/details?id=br.tiringo.comandosLinux </a>
