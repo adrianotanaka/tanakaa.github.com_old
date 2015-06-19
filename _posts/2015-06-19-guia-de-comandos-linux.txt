@@ -5,6 +5,10 @@ date:   2015-06-17 10:05:23
 categories: posts
 ---
 
-A um certo tempo, criei um aplicativo para ajudar quem está iniciando no mundo linux, com ele você pode consultar os principais comandos 
-disponíveis para Debian/Ubuntu e Fedora .
-Ele cobre desde como navegar por diretórios, criar e excluir usuários entre outros comandos úteis.
+A um certo tempo, criei um aplicativo para ajudar quem estÃ¡ iniciando no mundo linux, com ele vocÃª pode consultar os principais comandos 
+disponÃ­veis para Debian/Ubuntu e Fedora .
+Ele cobre desde como navegar por diretÃ³rios, criar e excluir usuÃ¡rios entre outros comandos Ãºteis.
+
+Algumas imagens do aplicativo:
+
+<img src="assets/comandos_linux/img1.png" />
