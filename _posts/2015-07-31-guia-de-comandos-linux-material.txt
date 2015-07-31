@@ -11,7 +11,7 @@ NOVIDADES:
 *Atualizado para o material Design
 *Novo icone de aplicativo
 *Exemplos adicionados
-*Melhorado navegação do app
+*Melhorado navegacao do app
 *Desempenho melhorado.
 *Novo nome do app
 
