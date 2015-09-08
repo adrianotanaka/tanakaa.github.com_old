@@ -1,41 +1,23 @@
+# Site settings
 title: "Adriano Tanaka - Oracle e Linux"
-author: "Adriano Tanaka"
-description: "Um blog dedicado a Oracle e Linux"
-#subheading: "Really cool blog about ... something"
-more: "read more"
-url: "http://tanakaa.github.io/"
-#baseurl: "/tanakaa.github.com" # comment out if in root directory
+email: adriano.tanakaa@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/Read-Only-Jekyll-Theme" # the subpath of your site, e.g. /blog/
+url: "http://tanakaa.github.io/" # the base hostname & protocol for your site
+twitter_username: adriano_w
+github_username:  atanakaa
+
+# Build settings
+#markdown: kramdown
+
 
 comments:
     disqus: "adrianotanakablog"
 #    isso: "comments.mysite.org"
-
-style:
-#    body: "whitesmoke"
-    padding: 33%
-    anchor: "#46f"
-    serif-heading: true
-    nav: "#181818"
-#    headline: "#06f"
-    description: "white"
-    article:
-        odd: "#ffffff"
-        even: "#222222"
-
-links:
-  - github: "https://github.com/tanakaa/"
- # - twitter: "https://twitter.com/me/"
-  - google-plus: "https://plus.google.com/+AdrianoTanakaa"
- # - reddit: "https://www.reddit.com/user/me/"
-  - youtube: "https://www.youtube.com/user/adrianotanakaa"
- # - steam: "http://steamcommunity.com/id/me/"
- 
- 
- 
 analytics :
   provider : google
   google : 
       tracking_id : 'UA-64236204-1'
-  
-excerpt_separator: "<!--more-->" 
-defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
