@@ -7,8 +7,6 @@ description: "Um blog dedicado a Oracle e Linux"
 baseurl: ""
 url: "http://tanakaa.github.io/"
 
-comments:
-    disqus: "adrianotanakablog"
 	
 analytics :
   provider : google
