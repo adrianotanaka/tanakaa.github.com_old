@@ -7,7 +7,7 @@ words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 url: http://tanakaa.github.io/
-
+baseurl:""
 # Owner/author information
 owner:
   name:           Adriano Tanaka
@@ -68,3 +68,29 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+=======
+email: adriano.tanakaa@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://tanakaa.github.io/" # the base hostname & protocol for your site
+#twitter_username: adriano_w
+#github_username:  atanakaa
+
+# Build settings
+#markdown: kramdown
+
+
+comments:
+    disqus: "adrianotanakablog"
+#    isso: "comments.mysite.org"
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-64236204-1'
+
+excerpt_separator: "<!--more-->" 
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+>>>>>>> origin/master
