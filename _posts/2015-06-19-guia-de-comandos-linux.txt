@@ -13,8 +13,8 @@ Algumas imagens do aplicativo:
 <!--more-->
 <table style="width:100%">
 <tr><td>
-<a href="/assets/comandos_linux/img1.png"><img src="/assets/comandos_linux/img1.png" /></a></td>
-<td><a href="/assets/comandos_linux/img2.png"><img src="/assets/comandos_linux/img2.png" /></a></td>
-<td><a href="/assets/comandos_linux/img3.png"><img src="/assets/comandos_linux/img3.png" /></a></td></tr></table>
+<a href="/img/comandos_linux/img1.png"><img src="/img/comandos_linux/img1.png" /></a></td>
+<td><a href="/img/comandos_linux/img2.png"><img src="/img/comandos_linux/img2.png" /></a></td>
+<td><a href="/img/comandos_linux/img3.png"><img src="/img/comandos_linux/img3.png" /></a></td></tr></table>
 <br>
 Você pode baixar o aplicativo nesse link: <a href="https://play.google.com/store/apps/details?id=br.tiringo.comandosLinux ">https://play.google.com/store/apps/details?id=br.tiringo.comandosLinux </a>
