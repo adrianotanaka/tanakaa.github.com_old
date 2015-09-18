@@ -6,7 +6,7 @@ email: adriano.tanakaa@gmail.com
 description: "Um blog dedicado a Oracle e Linux"
 baseurl: ""
 url: "http://tanakaa.github.io/"
-	  
+  
 # Build settings
 markdown: kramdown
 highlighter: pygments
