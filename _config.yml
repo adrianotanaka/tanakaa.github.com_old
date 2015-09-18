@@ -2,12 +2,19 @@
 title: "Adriano Tanaka - Oracle e Linux"
 autor: "Adriano Tanaka"
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: adriano.tanakaa@gmail.com
 description: "Um blog dedicado a Oracle e Linux"
 baseurl: ""
 url: "http://tanakaa.github.io/"
 
-
+comments:
+    disqus: "adrianotanakablog"
+	
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-64236204-1'
+	  
 # Build settings
 markdown: kramdown
 highlighter: pygments
