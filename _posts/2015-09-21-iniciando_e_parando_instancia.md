@@ -39,12 +39,17 @@ Um shutdown abort é semelhante a puxar o cabo de energia da tomada, quando esse
 
 **shutdown immediate**
 
-Nesse tipo de shutdown, o Oracle espera as operações currentes serem finalizadas, as que não sofreram commit são desfeitas e todos os usuários conectados são desconectados da instância.
+Nesse tipo de shutdown, o Oracle espera as operações currentes serem finalizadas, as que não sofreram commit são desfeitas e todos os usuários conectados são desconectados da instância, assim temos um shutdown consistente.
 
 **shutdown normal**
 
 
+Em um shutdown normal o Oracle não aceita novas conexões e ele espera os usuários finalizarem as sessões ativas.
+Nesse tipo de parada, o Oracle é finalizado de forma consistente e não precisa de recovery no proximo inicio.
 
+**shutdown transactional**
+
+Ele executa um shutdown consistente, ele espera que os usuários finalizem suas transações, não permite novas conexões, depois de todas as transações forem commitadas ou finalizadas, o usuário que ainda estiver conectado, acaba sendo desconectado do banco de dados.
 
 
 
