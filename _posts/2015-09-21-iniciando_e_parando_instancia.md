@@ -11,8 +11,8 @@ Para iniciar uma instância podemos usar o comando startup no sqlplus, mas aten�
 Podemos usar varias combinações de startup:
 <ul><li>startup</li><li>startup nomount</li><li>startup mount</li></ul>
 
-h1.O que acontece em cada estágio:
-
+O que acontece em cada estágio:
+=
 *nomount*
 
 Nesse estágio o Oracle lê o arquivo de inicialização, que pode ser o init_sid.ora ou o spfileSID.ora, onde ele encontra alguns parametros que vão ser usados na configuração da instância.
@@ -25,5 +25,7 @@ Caso o banco já esteja no modo nomount, você pode executar o comando _alter da
 *open*
 
 O open é o ultimo passo do startup de uma instância, nesse momento ele abre os arquivos de dados e se certifica que não existem problemas com os datafiles, logo após isso a instância esta liberada para o uso.
+
+
 
 
