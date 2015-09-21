@@ -20,7 +20,7 @@ Depois de ter lido o arquivo, as áreas de memória são configuradas de acordo 
 
 *mount*
 
-Caso o banco já esteja no modo nomount, você pode executar o comando _alter database mount_ para mudar a instância para o modo mount, no modo mount ele abre e lê o arquivo de control file, nesse arquivo estão contido por exemplo a localização dos datafiles, mas preste atenção pois ele não abre os arquivos de dados.
+Caso o banco já esteja no modo nomount, você pode executar o comando __alter database mount__ para mudar a instância para o modo mount, no modo mount ele abre e lê o arquivo de control file, nesse arquivo estão contido por exemplo a localização dos datafiles, mas preste atenção pois ele não abre os arquivos de dados.
 
 *open*
 
