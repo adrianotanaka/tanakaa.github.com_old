@@ -13,11 +13,17 @@ Podemos usar varias combinações de startup:
 
 h1. O que acontece em cada estágio:
 
-*startup nomount*
+*nomount*
 
 Nesse estágio o Oracle lê o arquivo de inicialização, que pode ser o init_sid.ora ou o spfileSID.ora, onde ele encontra alguns parametros que vão ser usados na configuração da instância.
 Depois de ter lido o arquivo, as áreas de memória são configuradas de acordo com o que estava no arquivo de parâmetro e os processos de background são startados.
 
-*startup mount*
+*mount*
 
-Caso o banco já esteja no modo nomount, você pode executar um comando _alter database mount_
+Caso o banco já esteja no modo nomount, você pode executar o comando _alter database mount_ para mudar a instância para o modo mount, no modo mount ele abre e lê o arquivo de control file, nesse arquivo estão contido por exemplo a localização dos datafiles, mas preste atenção pois ele não abre os arquivos de dados.
+
+*open*
+
+O open é o ultimo passo do startup de uma instância, nesse momento ele abre os arquivos de dados e se certifica que não existem problemas com os datafiles, logo após isso a instância esta liberada para o uso.
+
+
