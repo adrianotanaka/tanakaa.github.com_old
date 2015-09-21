@@ -26,6 +26,25 @@ Caso o banco já esteja no modo nomount, você pode executar o comando *alter da
 
 O open é o ultimo passo do startup de uma instância, nesse momento ele abre os arquivos de dados e se certifica que não existem problemas com os datafiles, logo após isso a instância esta liberada para o uso.
 
+Caso você execute um startup sem nenhum parâmetro, o oracle passa por todos os estágios de forma automática.
+
+Finalizando uma instância Oracle:
+-
+
+Assim como para iniciar uma instância, também existem diversas combinações para parar uma instância Oracle, agora descrevo cada uma delas com seus respectivos significados.
+
+**shutdown abort**
+
+Um shutdown abort é semelhante a puxar o cabo de energia da tomada, quando esse comando é emitido o oracle não salva nada, todas as operações SQL são encerradas, o oracle não faz rollback das transações e um recovery é executado no proximo startup da instância, esse é um tipo de shutdown inconsistente.
+
+**shutdown immediate**
+
+Nesse tipo de shutdown, o Oracle espera as operações currentes serem finalizadas, as que não sofreram commit são desfeitas e todos os usuários conectados são desconectados da instância.
+
+**shutdown normal**
+
+
+
 
 
 
