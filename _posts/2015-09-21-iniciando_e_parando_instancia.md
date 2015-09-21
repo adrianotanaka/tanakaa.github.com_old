@@ -11,7 +11,7 @@ Para iniciar uma instância podemos usar o comando startup no sqlplus, mas aten�
 Podemos usar varias combinações de startup:
 <ul><li>startup</li><li>startup nomount</li><li>startup mount</li></ul>
 
-h1. O que acontece em cada estágio:
+h1.O que acontece em cada estágio:
 
 *nomount*
 
