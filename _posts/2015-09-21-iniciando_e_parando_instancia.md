@@ -12,7 +12,7 @@ Podemos usar varias combinações de startup:
 <ul><li>startup</li><li>startup nomount</li><li>startup mount</li></ul>
 
 O que acontece em cada estágio:
-=
+-
 *nomount*
 
 Nesse estágio o Oracle lê o arquivo de inicialização, que pode ser o init_sid.ora ou o spfileSID.ora, onde ele encontra alguns parametros que vão ser usados na configuração da instância.
