@@ -55,11 +55,22 @@ A implementação dessa tecnologia foi feita de forma simples, bastando algumas 
 
 Em nosso workshop, utilizamos a estrutura da própria Oracle(vale ressaltar que é uma estrutura muito boa), para realizar o backup de uma base local(em minha máquina) para os servidores de backup da Oracle, esbarramos no principal ponto  que todos já imaginavam: Internet.
 
-Demoramos mais de 1hora para conseguir fazer o backup da base de teste(que se não me engano tinha aproximadamente 700Mb) mas após esse tempo de espera o backup foi realizado com sucesso dentro do servidor de backup da Oracle.
+Demoramos mais de 1hora para conseguir fazer o backup da base de teste(que se não me engano tinha aproximadamente 400Mb) mas após esse tempo de espera o backup foi realizado com sucesso dentro do servidor de backup da Oracle.
 
 Ainda no lab de backup um dos testes foi apagar um tabela da minha base local e realizar o restore a partir do backup que estava na nuvem da Oracle, onde mais uma vez esbarramos no problema da internet que acabou se mostrando o maior gargalo nessa operação.
 
 Depois da espera, a base foi restaurada com sucesso o que animou bastante os participantes do workshop, mas como já falado antes, essa tecnologia ainda precisa de mais testes e infelizmente o servidor brasileiro não estava liberado para os testes desse workshop e acabamos usando servidores americanos para tal tarefa.
 
 
+***Pontos positivos***
+Podemos usar os comandos do RMAN para gerenciar os backups na nuvem
+Configuração rápida e simples
 
+***Pontos de atenção***
+Internet pode ser o maior gargalo
+Consultar as informações direto no storage de backup da Oracle.
+
+* * *
+
+
+Bem pessoal, essas foram minhas considerações sobre o Workshop Oracle Cloud, qualquer duvida por favor entrem em contato comigo.
