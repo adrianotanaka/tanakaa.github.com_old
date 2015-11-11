@@ -48,4 +48,16 @@ Depois de clonar um banco local e enviar para nuvem, realizar o mesmo procedimen
 <img src="http://i.imgur.com/cQBZIrd.png"/>
 *Imagem retirada do site da Oracle*
 
+Por 33 doláres por mês a Oracle te entrega 1Tb de armazenamento na nuvem dela, dependendo do tamanho do banco de dados esse espaço pode durar por muito, muito tempo.
+A implementação dessa tecnologia foi feita de forma simples, bastando algumas configurações rápidas mas ainda precisa de mais alguns testes uma vez que no workshop todos os procedimentos foram realizados dentro da estrutura da própria Oracle.
+
+***Nem tudo são flores***
+
+Em nosso workshop, utilizamos a estrutura da própria Oracle(vale ressaltar que é uma estrutura muito boa), quando mandaos realizar o backup de uma base local(em minha máquina) para os servidores de backup da Oracle, esbarramos no principal ponto negativo que todos já imaginavam: Internet.
+
+Demoramos mais de 1hora para conseguir fazer o backup da base de teste(que se não me engano tinha aproximadamente 700Mb) mas após esse tempo de espera o backup foi realizado com sucesso dentro do servidor de backup da Oracle.
+
+Ainda no lab de backup um dos testes foi apagar um tabela da minha base local e realizar o restore a partir do backup que estava na nuvem da Oracle, onde mais uma vez esbarramos no problema da internet que acabou se mostrando o maior gargalo nessa operação.
+
+
 
