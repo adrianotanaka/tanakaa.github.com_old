@@ -38,3 +38,9 @@ Colocando meu banco na nuvem
 
 Um dos labs realizados foi o procedimento de implementar uma nova instância dentro da nuvem da Oracle.
 Todo o processo de selecionar as configurações do servidor, tais como processador(a Oracle tem uma medida própria para isso) memória, disco e versão do banco de dados leva em torno de 1hora para single instânce e 2horas para um ambiente em cluster(infelizmente não tivemos tempo para de testar esse segundo cenário).
+
+Mas a instalação de uma single instânce 12c foi um sucesso, não ocerram problemas durante o procedimento e o resultado foi melhor do que o esperado, ele realmente funciona, inclusive fazendo uso de algumas novas tecnologias como o  multitenant.
+
+Backup em nuvem do banco
+-
+
