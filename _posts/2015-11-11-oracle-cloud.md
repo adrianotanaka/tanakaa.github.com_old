@@ -23,3 +23,4 @@ Meu banco de dados na nuvem, e agora?
 -
 
 Um dos pontos que o instrutor focou foi o banco de dados na nuvem, existem diversas opções, você pode manter alguns serviços locais e outros na nuvem, várias versões de banco de dados e features disponíveis:
+<img src="http://i.imgur.com/Sr9yYoC.png"/>
