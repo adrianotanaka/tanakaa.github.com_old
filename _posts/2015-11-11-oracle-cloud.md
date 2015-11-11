@@ -7,7 +7,7 @@ layout: post
 
 Tive a oportunidade de participar de um workshop sobre Oracle Cloud e pude ver algumas coisas interessantes que podem se tornar realidade no quesito banco de dados e também no suporte a aplicações, tudo utilizando a estrutura da própria Oracle.
 Atualmente diversas empresas (as grandes principalmente) estão em uma corrida para ver quem vai dominar a nuvem que segundo especialista é um futuro inevitável: Todos em algum momento no futuro vão estar na nuvem.
-No WorkShop foram apresentados diversas funcionalidades da nuvem da Oracle, listo as mais importantes abaixo:
+No WorkShop foram apresentados diversas funcionalidades da nuvem da Oracle, listo as mais importantes(e interessantes) abaixo:
 
 [***Servidor Oracle Cloud localizado no Brasil***](https://www.oracle.com/corporate/pressrelease/data-center-brazil-062415.html)
 
@@ -17,12 +17,12 @@ Uma boa notícia para o Brasil e países da América Latina: a Oracle começou a
 
 ***Tudo na nuvem***
 
-Uma das coisas que foi apresentado ontem foi que a Oracle vai passar a oferecer (sem data prevista ainda)  a capacidade de rodar diversas linguagens de programação, sem a necessidade de um servidor dedicado a isso, para java você já pode ver [aqui](https://cloud.oracle.com/en_US/java) como funciona.
+Uma das coisas que foi apresentado ontem foi que a Oracle vai passar a oferecer (sem data prevista ainda)  a capacidade de rodar diversas linguagens de programação, sem a necessidade de um servidor dedicado a isso, para java você já pode ver [aqui](https://cloud.oracle.com/en_US/java) como funciona, para as outras linguagens de programação vamos ter que esperar para ver como isso vai funcionar.
 
 Meu banco de dados na nuvem, e agora?
 -
 
-Um dos pontos que o instrutor focou foi o banco de dados na nuvem, existem diversas opções, você pode manter alguns serviços locais e outros na nuvem, várias versões de banco de dados e features disponíveis:
+Um dos pontos que o instrutor focou muito, foi o banco de dados na nuvem, existem diversas opções, você pode manter alguns serviços locais e outros na nuvem, várias versões de banco de dados e features disponíveis:
 <img src="http://i.imgur.com/Sr9yYoC.png"/>
 *Imagem retirada do site da Oracle*
 
@@ -36,11 +36,16 @@ Ainda segundo o instrutor, em alguns casos(aqui entra o pessoal de vendas da Ora
 Colocando meu banco na nuvem
 -
 
-Um dos labs realizados foi o procedimento de implementar uma nova instância dentro da nuvem da Oracle.
+Um dos labs realizados foi o procedimento de subir uma nova instância dentro da nuvem da Oracle.
 Todo o processo de selecionar as configurações do servidor, tais como processador(a Oracle tem uma medida própria para isso) memória, disco e versão do banco de dados leva em torno de 1hora para single instânce e 2horas para um ambiente em cluster(infelizmente não tivemos tempo para de testar esse segundo cenário).
 
 Mas a instalação de uma single instânce 12c foi um sucesso, não ocerram problemas durante o procedimento e o resultado foi melhor do que o esperado, ele realmente funciona, inclusive fazendo uso de algumas novas tecnologias como o  multitenant.
 
 Backup em nuvem do banco
 -
+
+Depois de clonar um banco local e enviar para nuvem, realizar o mesmo procedimento atráves de um database link e ainda usando o datapump, chegou o momento que a maioria estava aguardando ansiosos: Realizar um backup de uma máquina local para um espaço dentro da nuvem da Oracle, que é um serviço separado, você não precisa comprar uma nuvem para banco, compra apenas um espaço para realizar os seus backups o que torna essa solução muito interessante e barata(pelo menos no meu ponto de vista):
+<img src="http://i.imgur.com/cQBZIrd.png"/>
+*Imagem retirada do site da Oracle*
+
 
