@@ -24,3 +24,17 @@ Meu banco de dados na nuvem, e agora?
 
 Um dos pontos que o instrutor focou foi o banco de dados na nuvem, existem diversas opções, você pode manter alguns serviços locais e outros na nuvem, várias versões de banco de dados e features disponíveis:
 <img src="http://i.imgur.com/Sr9yYoC.png"/>
+*Imagem retirada do site da Oracle*
+
+Aqui que as coisas começam a ficar interessantes(pelo menos para quem mexe com banco), a Oracle realizar cobranças de duas formas:
+
+**Mensal**
+**Por consumo**
+
+Ainda segundo o instrutor, em alguns casos(aqui entra o pessoal de vendas da Oracle), usar uma infraestrutura toda baseada em nuvem acaba saindo mais barato do que utilizar uma infra [On Premises](https://en.wikipedia.org/wiki/On-premises_software) além é claro de oferecer mais segurança, diminuir os custos e principalmente o tempo para uma nova implementação ou ajuste.
+
+Colocando meu banco na nuvem
+-
+
+Um dos labs realizados foi o procedimento de implementar uma nova instância dentro da nuvem da Oracle.
+Todo o processo de selecionar as configurações do servidor, tais como processador(a Oracle tem uma medida própria para isso) memória, disco e versão do banco de dados leva em torno de 1hora para single instânce e 2horas para um ambiente em cluster(infelizmente não tivemos tempo para de testar esse segundo cenário).
