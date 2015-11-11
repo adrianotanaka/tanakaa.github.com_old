@@ -1,6 +1,6 @@
 ---
 title: "Oracle Cloud, seria esse o futuro da computação?"
-date: {}
+date: 2015-11-11 11:51:23 
 categories: posts
 layout: post
 ---
