@@ -17,5 +17,9 @@ Uma boa notícia para o Brasil e países da América Latina: a Oracle começou a
 
 ***Tudo na nuvem***
 
-Uma das coisas que foi apresentado ontem foi que a Oracle vai passar a oferecer (sem data prevista ainda) é a capacidade de rodar diversas linguagens de programação, sem a necessidade de um servidor dedicado a isso, para java você pode ver [aqui](https://cloud.oracle.com/en_US/java) como funciona.
+Uma das coisas que foi apresentado ontem foi que a Oracle vai passar a oferecer (sem data prevista ainda)  a capacidade de rodar diversas linguagens de programação, sem a necessidade de um servidor dedicado a isso, para java você já pode ver [aqui](https://cloud.oracle.com/en_US/java) como funciona.
 
+Meu banco de dados na nuvem, e agora?
+-
+
+Um dos pontos que o instrutor focou foi o banco de dados na nuvem, existem diversas opções, você pode manter alguns serviços locais e outros na nuvem, várias versões de banco de dados e features disponíveis:
