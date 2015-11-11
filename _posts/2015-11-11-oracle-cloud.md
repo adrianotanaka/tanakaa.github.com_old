@@ -13,7 +13,7 @@ No WorkShop foram apresentados diversas funcionalidades da nuvem da Oracle, list
 
 Uma boa notícia para o Brasil e países da América Latina: a Oracle começou a oferecer em São Paulo um data center o que em teoria melhora alguns pontos no serviço oferecido (vou falar sobre isso daqui a pouco).
 
-<img src="_img/oracle_cloud/data_center_oracle_brasil.PNG"/>
+<img src="http://pasteboard.co/23wFGBe0.png"/>
 
 ***Tudo na nuvem***
 
