@@ -41,4 +41,6 @@ No nosso ambiente de teste, vamos dar um enter e prosseguir com a instalação.
 **4-** Depois dos passos inicias, somos apresentados a tela do inicio da instalação do Oracle Linux, ela é semelhante as telas de outras distribuições(Red Hat, CentOS, etc).
 ![](http://i.imgur.com/pF91SBx.png)
 
+**5-** Agora devemos selecionar o idioma e o layout do teclado, aqui recomendo já selecionar a opção ABNT2, pois depois do sistema instalado é meio confuso para trocar essa configuração.
+![](http://i.imgur.com/spop0Xg.png)![](http://i.imgur.com/F5LnMNx.png)
 
