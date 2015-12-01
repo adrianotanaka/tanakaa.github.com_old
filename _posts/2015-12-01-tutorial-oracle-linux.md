@@ -114,4 +114,27 @@ Clique em reboot e aguarde.
 ![](http://i.imgur.com/btFgPBY.png)
 
 
+## Se tudo tiver corrido com sucesso, a tela de boas vindas vai ser apresentada e agora vamos para a parte final da nossa instalação
 
+![](http://i.imgur.com/XLFrLeK.png)
+
+**18-** Aceite o contrato de instalação
+![](http://i.imgur.com/ssuX50V.png)
+
+**19-** Caso você possua contrato de suporte  com a Oracle, vá na opção **Yes**, como não possuimos, vamos na opção **No** e clique em **forward**
+![](http://i.imgur.com/HO7FlIG.png)
+
+**20-** Como selecionamos o pacote pre-install, não vamos precisar criar nenhum usuário, apenas clique em **forward**
+![](http://i.imgur.com/ebbxpgv.png)
+
+**21-**Confirme  as opções de hora e fuso
+![](http://i.imgur.com/P07esOq.png)
+
+**22-** Caso a quantidade de memória seja suficiente, podemos usar o kdump nesse caso ele vem até desativado, clique em finishe finalizamos
+![](http://i.imgur.com/oId3cd6.png)
+
+## A tela mais aguardada, caso esteja vendo ela, estamos prontos para poder instalar o banco de dados, mas isso fica para um próximo tutorial.
+
+![](http://i.imgur.com/WNwz638.png)
+
+Qualquer duvida na instalação, podem me enviar e-mails para adriano.tanakaa@gmail.com
