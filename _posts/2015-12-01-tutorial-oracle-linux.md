@@ -82,7 +82,7 @@ Caso a senha seja fraca, um alerta vai ser exibido, basta clicar em **Use anyway
 ![](http://i.imgur.com/i3KgUpv.png)
 **11c-**Devemos selecionar a opção **Standard partition**, mas como sempre, isso vai variar de ambiente para ambiente.
 ![](http://i.imgur.com/LFtUR8G.png)
-**11c-**Selecione no **File System tipe** a opção swap e em **Size(MB)** configure de acordo com a quantidade de memória ram.
+**11c-**Selecione no **File System type** a opção swap e em **Size(MB)** configure de acordo com a quantidade de memória ram.
 
 [Aqui](http://docs.oracle.com/cd/B28359_01/install.111/b32002/pre_install.htm) você encontra uma tabela com as configurações ideais de swap.
 ![](http://i.imgur.com/oS18my5.png)
