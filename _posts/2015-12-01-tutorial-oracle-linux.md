@@ -102,6 +102,16 @@ Marque a opção **Desktop** e depois a opção **Customize now** e depois **Nex
 **14-** Vá em **Server** e marque a opção **System administration tools**.
 ![](http://i.imgur.com/ZCHDPP7.png)
 
-**15-** Clique em **Optional Package** e procure pelo pacote **oracle-rdbms-server-11gr2-preinstall**
+**15-** Clique em **Optional Package** e procure pelo pacote **oracle-rdbms-server-11gr2-preinstall** marque ele e depois em ok e **Next**
 ![](http://i.imgur.com/4O5CGzP.png) 
+
+**16-** Espere os pacotes serem instalados, já estamos quase terminando.
+![](http://i.imgur.com/RV2HShp.png)
+
+**17-** Depois da espera, a tela de sucesso.
+
+Clique em reboot e aguarde.
+![](http://i.imgur.com/btFgPBY.png)
+
+
 
