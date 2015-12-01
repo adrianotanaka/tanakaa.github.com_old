@@ -44,3 +44,18 @@ No nosso ambiente de teste, vamos dar um enter e prosseguir com a instalação.
 **5-** Agora devemos selecionar o idioma e o layout do teclado, aqui recomendo já selecionar a opção ABNT2, pois depois do sistema instalado é meio confuso para trocar essa configuração.
 ![](http://i.imgur.com/spop0Xg.png)![](http://i.imgur.com/F5LnMNx.png)
 
+**6-** Nesse momento, as configurações vão ser especificas do seu ambiente, agora iremos configurar opções de disco.
+
+Em nosso ambiente, iremos selecionar a primeira opção **Basic storage devices**, clique nela e depois em **Next**
+![](http://i.imgur.com/dRtUmyg.png)
+
+**7-** Um alerta de que estamos zerando o disco vai ser exibido, clique em **Yes, discard any data** e prossiga
+![](http://i.imgur.com/QkgcM8C.png)
+
+**8-** Devemos selecionar o nome da nossa máquina, caso você possua um dominio, siga esse padrão para definir o nome da máquina: **nome_da_maquina.dominio**
+
+Opcionalmente a rede já pode ser configurada, em nosso ambiente isso não é necessário pois iremos pegar um ip a partir de um dhcp.
+![](http://i.imgur.com/VWAt7yA.png)
+
+**9-**
+
