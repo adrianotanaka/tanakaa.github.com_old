@@ -79,10 +79,24 @@ Caso a senha seja fraca, um alerta vai ser exibido, basta clicar em **Use anyway
 ![](http://i.imgur.com/i3KgUpv.png)
 **11c-**Devemos selecionar a opção **Standard partition**, mas como sempre, isso vai variar de ambiente para ambiente.
 ![](http://i.imgur.com/LFtUR8G.png)
-**12c-**Selecione no **File System tipe** a opção swap e em **Size(MB)** configure de acordo com a quantidade de memória ram.
+**11c-**Selecione no **File System tipe** a opção swap e em **Size(MB)** configure de acordo com a quantidade de memória ram.
 
 [Aqui](http://docs.oracle.com/cd/B28359_01/install.111/b32002/pre_install.htm) você encontra uma tabela com as configurações ideais de swap.
 ![](http://i.imgur.com/oS18my5.png)
 
+**11d-** Depois vamos alocar o espaço restante para a partição **/**.
+
+Clique novamente no disco e agora o tipo da partição deve ser ext4, marque as opções **Fill to maximum allowable size** e **Force to be a primary partition**
+![](http://i.imgur.com/pDxEPbo.png)
+
+**11e-** Esse deve ser o layout final
+![](http://i.imgur.com/QpFNw72.png)
+
+**12-** Nessa tela não iremos mudar nada, apenas clique em next
+![](http://i.imgur.com/KiKeHkC.png)
+
+**13-** A partir desse momento, iremos selecionar alguns pacotes necessários para o banco de dados, o que vai facilitar bastante a nossa vida.
+
+Marque a opção **Desktop** e depois a opção **Customize now**
 
 
