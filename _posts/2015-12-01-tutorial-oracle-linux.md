@@ -133,7 +133,7 @@ Clique em reboot e aguarde.
 **21-**Confirme  as opções de hora e fuso
 ![](http://i.imgur.com/P07esOq.png)
 
-**22-** Caso a quantidade de memória seja suficiente, podemos usar o kdump nesse caso ele vem até desativado, clique em finishe finalizamos
+**22-** Caso a quantidade de memória seja suficiente, podemos usar o kdump nesse caso ele vem até desativado, clique em finish e finalizamos
 ![](http://i.imgur.com/oId3cd6.png)
 
 ## A tela mais aguardada, caso esteja vendo ela, estamos prontos para poder instalar o banco de dados, mas isso fica para um próximo tutorial.
