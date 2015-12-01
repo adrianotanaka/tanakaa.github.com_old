@@ -1,5 +1,8 @@
 ---
-published: false
+title: "[Tutorial] Instalando e preparando o Oracle Linux 6 para rodar o Oracle 11g ou 12c"
+date: 2015-12-01 16:40:23 
+categories: posts
+layout: post
 ---
 
 ## [Tutorial] Instalando e preparando o Oracle Linux 6 para rodar o Oracle 11g ou 12c
