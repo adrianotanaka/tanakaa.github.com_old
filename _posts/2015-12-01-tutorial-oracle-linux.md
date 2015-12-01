@@ -67,7 +67,7 @@ Selecione a cidade e clique em Next.
 ![](http://i.imgur.com/Lvixsmi.png)
 
 **10-** 
-## IMPORTANTE##
+## IMPORTANTE
 Aqui a senha do usuário root deve ser entrada, coloque uma senha que você vai se lembrar, apesar de todo o gerenciamento do banco de dados ser feito com o usuário Oracle(por padrão), iremos precisar do usuário root para realizar algumas configurações.
 ![](http://i.imgur.com/SlT7tUG.png)
 
