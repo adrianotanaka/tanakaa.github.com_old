@@ -42,6 +42,8 @@ No nosso ambiente de teste, vamos dar um enter e prosseguir com a instalação.
 ![](http://i.imgur.com/pF91SBx.png)
 
 **5-** Agora devemos selecionar o idioma e o layout do teclado, aqui recomendo já selecionar a opção ABNT2, pois depois do sistema instalado é meio confuso para trocar essa configuração.
+
+
 ![](http://i.imgur.com/spop0Xg.png)![](http://i.imgur.com/F5LnMNx.png)
 
 **6-** Nesse momento, as configurações vão ser especificas do seu ambiente, agora iremos configurar opções de disco.
@@ -57,5 +59,15 @@ Em nosso ambiente, iremos selecionar a primeira opção **Basic storage devices*
 Opcionalmente a rede já pode ser configurada, em nosso ambiente isso não é necessário pois iremos pegar um ip a partir de um dhcp.
 ![](http://i.imgur.com/VWAt7yA.png)
 
-**9-**
+**9-** Selecione o local onde o servidor estará, isso irá ajustar o fuso horário da máquina.
+Selecione a cidade e clique em Next.
+![](http://i.imgur.com/Lvixsmi.png)
+
+**10-** 
+## IMPORTANTE##
+Aqui a senha do usuário root deve ser entrada, coloque uma senha que você vai se lembrar, apesar de todo o gerenciamento do banco de dados ser feito com o usuário Oracle(por padrão), iremos precisar do usuário root para realizar algumas configurações.
+![](http://i.imgur.com/SlT7tUG.png)
+
+Caso a senha seja fraca, um alerta vai ser exibido, basta clicar em **Use anyway** que a instalação vai continuar.
+![](http://i.imgur.com/IVarXov.png)
 
