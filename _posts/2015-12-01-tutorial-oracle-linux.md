@@ -97,6 +97,11 @@ Clique novamente no disco e agora o tipo da partição deve ser ext4, marque as 
 
 **13-** A partir desse momento, iremos selecionar alguns pacotes necessários para o banco de dados, o que vai facilitar bastante a nossa vida.
 
-Marque a opção **Desktop** e depois a opção **Customize now**
+Marque a opção **Desktop** e depois a opção **Customize now** e depois **Next**
 
+**14-** Vá em **Server** e marque a opção **System administration tools**.
+![](http://i.imgur.com/ZCHDPP7.png)
+
+**15-** Clique em **Optional Package** e procure pelo pacote **oracle-rdbms-server-11gr2-preinstall**
+![](http://i.imgur.com/4O5CGzP.png) 
 
