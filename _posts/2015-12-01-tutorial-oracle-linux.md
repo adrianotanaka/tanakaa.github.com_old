@@ -71,3 +71,18 @@ Aqui a senha do usuário root deve ser entrada, coloque uma senha que você vai 
 Caso a senha seja fraca, um alerta vai ser exibido, basta clicar em **Use anyway** que a instalação vai continuar.
 ![](http://i.imgur.com/IVarXov.png)
 
+**11-** Nesse momento iremos criar o layout das nossas partições, isso aqui vai variar bastante em ambiente de produção, em nosso ambiente de teste, iremos criar uma partição de **swap** que é obrigatória para a instalação do banco de dados e depois iremos alocar o espaço restante para o **/**.
+
+**11a-** Selecione a opção **Create custom layout** e clique em next.
+![](http://i.imgur.com/44d8WSp.png)
+**11b-** Clique no disco desejado e depois em **Create**
+![](http://i.imgur.com/i3KgUpv.png)
+**11c-**Devemos selecionar a opção **Standard partition**, mas como sempre, isso vai variar de ambiente para ambiente.
+![](http://i.imgur.com/LFtUR8G.png)
+**12c-**Selecione no **File System tipe** a opção swap e em **Size(MB)** configure de acordo com a quantidade de memória ram.
+
+[Aqui](http://docs.oracle.com/cd/B28359_01/install.111/b32002/pre_install.htm) você encontra uma tabela com as configurações ideais de swap.
+![](http://i.imgur.com/oS18my5.png)
+
+
+
