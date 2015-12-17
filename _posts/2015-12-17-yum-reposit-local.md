@@ -6,12 +6,16 @@ layout: post
 ---
 
 **Antes de começarmos a configurar  o nosso repositório local, primeiro devemos saber o que é um repositório:**
+
 Um repositório yum, nada mais é do que um local com diversos pacotes no formato RPM que é o formato que os programas das distribuições baseadas no Red Hat vem empacotados, esse local pode ser um diretório no disco (repositório local) ou do tipo remoto (FTP, HTTP ou HTTPS).
 Vantagens de se instalar um software usando um repositório:
+
 •	Fácil manutenção: Instalação, atualização ou remoção de pacotes são feitas de forma simples.
+
 •	Resolução de dependências: as dependências de um pacote são resolvidas de forma automática.
 
 Configurando um repositório local:
+
 Nesse exemplo iremos precisar de uma ISO do sistema Oracle Linux.
 
 Com o uso de um repositório local, podemos evitar a necessidade de uma conexão com a internet para instalar nossos pacotes.
@@ -21,11 +25,11 @@ Para a configuração de um repositório yum local, devemos antes de tudo criar 
 
 Após o diretório criado, devemos mover o conteúdo da  da ISO para ele:
 
-`cp /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/Packages/* /etc/yum/repositorio_local/`
+    cp /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/Packages/* /etc/yum/repositorio_local/
 
-`cp -R /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/repodata /etc/yum/repositorio_local/`
+    cp -R /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/repodata /etc/yum/repositorio_local/
 
-`cp -R /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/RPM-GPG-KEY* /etc/yum/repositorio_local/`
+    cp -R /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/RPM-GPG-KEY* /etc/yum/repositorio_local/
 
 Cuidado com essa operação de copia pois um grande espaço é necessário, na versão do Oracle Linux 6.5 são necessários 3.4Gb.
 Assim que a copia for concluída, iremos configurar o arquivo que vai apontar o repositório local para o SO.
