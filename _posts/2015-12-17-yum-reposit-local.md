@@ -29,12 +29,15 @@ Após o diretório criado, devemos mover o conteúdo da ISO para ele:
 
     cp -R /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/repodata /etc/yum/repositorio_local/
 
-    cp -R /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/RPM-GPG-KEY* /etc/yum/repositorio_local/
+    cp  /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/RPM-GPG-KEY* /etc/yum/repositorio_local/
 
 Cuidado com essa operação de copia pois um grande espaço é necessário, na versão do Oracle Linux 6.5 são necessários 3.4Gb.
 
-Assim que a copia for concluída, iremos configurar o arquivo que vai apontar o repositório local para o SO.
+Assim que a copia for concluída, iremos configurar o arquivo que vai apontar o repositório local para o yum.
+
 Com seu editor preferido, crie um arquivo com o nome que você deseja dentro do diretório `/etc/yum.repos.d/`
+
+No meu caso, estou criando o seguinte arquivo:
 
 `vi /etc/yum.repos.d/repositorio_local.repo`
 
@@ -56,7 +59,7 @@ Onde a palavra entre `[]` significa um identificador do reposótorio.
 
 `gpgkey` é a localização da chave publica GPG
 
-Se o parâmetro `gpgcheck` estiver definido como 1, o yum vai verificar a autenticidade dos pacotes consultando a chave pública, se você estiver instalando um pacote sem assinatura, esse parâmetro deve ser definido como 0, mas atente-se pois assim você pode instalar um pacote vunerável.
+<p>Se o parâmetro `gpgcheck` estiver definido como 1, o yum vai verificar a autenticidade dos pacotes consultando a chave pública, se você estiver instalando um pacote sem assinatura, esse parâmetro deve ser definido como 0, mas atente-se pois assim você pode instalar um pacote vunerável.</p>
 
 Caso queira deixar o repositório configurado, mas que ele não seja usado pelo yum, basta definir o parâmetro `enabled` como 0.
 
