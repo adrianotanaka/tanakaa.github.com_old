@@ -1,61 +1,69 @@
 ---
 layout: default
+disqus: false
+archive: false
+post_class: post-template
+slug: single
+comments: true
 ---
 
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                </div>
-            </div>
-        </div>
+<article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="2015-10-13">
+        <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date | date:"%Y-%m-%d" }}"> {{ page.date | date:"%Y-%m-%d" }}
+      </time>
+      <span>
+        <i class="fa fa-comments"></i> <a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Leave a comment</a>
+      </span>
+      <span>
+        {% assign post = page %}
+        {% if post.categories.size > 0 %}
+          {% capture categories_content %}<i class="fa fa-folder-open-o"></i> {% endcapture %}
+          {% for post_category in post.categories %}
+            {% for data_category in site.data.categories %}
+              {% if data_category.slug == post_category %}
+                {% assign category = data_category %}
+              {% endif %}
+            {% endfor %}
+
+            {% if category %}
+              {% capture categories_content_temp %}{{ categories_content }}<a href="/category/{{ category.slug }}/">{{ category.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+              {% assign categories_content = categories_content_temp %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign categories_content = '' %}
+        {% endif %}
+        {{ categories_content }}
+      </span>
     </div>
-</header>
+  </header>
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+  {% if page.cover %}
+    <figure class="post-photo">
+      <img src="{{ page.cover }}" alt="{{ page.title }}" title="{{ page.title }}">
+    </figure>
+  {% endif %}
 
-				{{ content }}
-{% include disqus.html %}
-                <hr>
+  {{content}}
 
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
+  <footer class="post-footer">
+    {% if site.author %}
+    <section class="author">
+      <h4>{{ site.author.name }}</h4>
+      <p>{{ site.author.bio }}</p>
+    </section>
+    {% endif %}
 
-            </div>
-        </div>
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Anuncio1 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3919614331658787"
-     data-ad-slot="6167798754"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    </div>
+    {% include share.html %}
+
+    {% if site.comments and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+
+  </footer>
 
 </article>
-
-<hr>

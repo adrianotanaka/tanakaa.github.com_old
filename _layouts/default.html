@@ -1,16 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
+{% strip %}<!DOCTYPE html>
+<html class="no-js" lang="pt-br">
+  <head>
+    {% include head.html %}
 
-{% include head.html %}
+    <meta name="robots" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
+    <meta name="googlebot" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
 
-<body>
+  </head>
+  <body class="{% if page.post_class %}{{page.post_class}}{% endif %} {% if page.slug %}{{page.slug}}{% endif %}">
+    {% include header.html %}
 
-    {% include nav.html %}
+    {% if page.slug == 'home' %}
+      {% include banner.html %}
+    {% endif %}
 
-    {{ content }}
+    <main class="wrapper container" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+      {{ content }}
+    </main>
 
     {% include footer.html %}
 
-</body>
+    {% include search-modal.html %}
 
-</html>
+    {% javascript main %}
+    {% if page.slug == 'projects' %}
+        {% javascript jquery.github %}
+    {% endif %}
+  </body>
+</html>{% endstrip %}

@@ -1,29 +1,22 @@
 ---
 layout: default
+post_class: page-template
 ---
 
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <hr class="small">
-                    <span class="subheading">{{ page.description }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+<div class="post" itemprop="mainContentOfPage">
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			{{ content }}
-		</div>
-	</div>
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  {{content}}
+
 </div>
 
-<hr>
+{% if page.slug == "error404" %}
+
+  {% for post in site.posts limit:6 %}
+    {% include article.html %}
+  {% endfor %}
+
+{% endif %}
