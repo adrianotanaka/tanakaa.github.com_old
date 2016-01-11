@@ -30,9 +30,15 @@ Um lock do tipo TX serve para evitar que diversos usuários editem a mesma linha
 
 **TM lock de tabelas**
 
-Esse tipo de lock ocorre quando existem diversas operações DDLs e DMLs no mesmo objeto, como já falado, esse tipo de lock serve para proteger o objeto de possíveis problemas de várias edições ao mesmo tempo.
+Esse tipo de lock ocorre quando existem diversas operações DML no mesmo objeto, como já falado, esse tipo de lock serve para proteger o objeto de uma possível alteração na estrutura da tabela enquanto um DML é executado.
+
+**Uma infinidade de locks**
+
+Caso queiram se aprofundar no assunto, recomendo dar uma olhada na documentação oficial da Oracle lá existe uma tabela com as operações e que tipo de lock elas podem causar : 
+[http://docs.oracle.com/cd/E11882_01/server.112/e41084/ap_locks001.htm#SQLRF55502](http://docs.oracle.com/cd/E11882_01/server.112/e41084/ap_locks001.htm#SQLRF55502)
 
 
-
-
-
+##Referencias:
+[http://docs.oracle.com/cd/E11882_01/server.112/e41084/ap_locks001.htm#SQLRF55502](http://docs.oracle.com/cd/E11882_01/server.112/e41084/ap_locks001.htm#SQLRF55502)
+[https://docs.oracle.com/cloud/latest/db112/REFRN/dynviews_2027.htm#REFRN30121](https://docs.oracle.com/cloud/latest/db112/REFRN/dynviews_2027.htm#REFRN30121)
+[https://pt.wikipedia.org/wiki/ACID](https://pt.wikipedia.org/wiki/ACID)
