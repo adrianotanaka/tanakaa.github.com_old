@@ -37,6 +37,11 @@ Esse tipo de lock ocorre quando existem diversas operações DML no mesmo objeto
 Caso queiram se aprofundar no assunto, recomendo dar uma olhada na documentação oficial da Oracle lá existe uma tabela com as operações e que tipo de lock elas podem causar : 
 [http://docs.oracle.com/cd/E11882_01/server.112/e41084/ap_locks001.htm#SQLRF55502](http://docs.oracle.com/cd/E11882_01/server.112/e41084/ap_locks001.htm#SQLRF55502)
 
+##Posso matar um lock?
+A resposta é sim e não, isso varia para cada caso e o ideal é que os locks sejam resolvidos de forma automática pelo próprio banco.
+Onde trabalho, um cliente nos solicitou que os locks não sejam finalizados pois ele possui uma rotina que gera nota fiscal que é normal ela travar e causar locks, também possuímos clientes que já solicitam isso direto, em caso de lock devemos mata-los.
+Só mate o lock caso realmente seja necessário.
+
 
 ##Referencias:
 [http://docs.oracle.com/cd/E11882_01/server.112/e41084/ap_locks001.htm#SQLRF55502](http://docs.oracle.com/cd/E11882_01/server.112/e41084/ap_locks001.htm#SQLRF55502)
