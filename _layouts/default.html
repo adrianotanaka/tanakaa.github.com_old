@@ -1,10 +1,9 @@
-{% strip %}<!DOCTYPE html>
+<!DOCTYPE html>
 <html class="no-js" lang="pt-br">
   <head>
     {% include head.html %}
 
-    <meta name="robots" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
-    <meta name="googlebot" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
+ 
 
   </head>
   <body class="{% if page.post_class %}{{page.post_class}}{% endif %} {% if page.slug %}{{page.slug}}{% endif %}">
@@ -27,4 +26,4 @@
         {% javascript jquery.github %}
     {% endif %}
   </body>
-</html>{% endstrip %}
+</html>
